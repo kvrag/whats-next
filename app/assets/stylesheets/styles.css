@@ -1,0 +1,65 @@
+
+/*---------------MAIN PAGE STUFF-------------*/
+
+body {
+  margin: 30px;
+  background-image: linear-gradient(
+    to right,
+    #00AAB2, #00AAA2 80%);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  min-width: 400px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .25);
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+label {
+  line-height: 4em;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f4d35e
+}
+
+textarea {
+  width: 350px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+a {
+  color: #19647e;
+  text-decoration: none;
+  font-size: .7em;
+  position: absolute;
+  bottom: 20px;
+}
+
+/*----------------MVP SHOW RESULTS-----------------*/
+
+#result {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f4d35e
+}
+
+
+
