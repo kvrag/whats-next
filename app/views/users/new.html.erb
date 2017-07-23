@@ -1,0 +1,11 @@
+<h1>What's Next?</h1>
+
+<%= form_for @user do |f| %>
+  <label>Get un-stuck.</label><br />
+  <p>
+    <%= f.text_area :thoughts, placeholder: "What's going on?" %>
+  </p>
+  <p>
+    <%= f.submit "Submit" %>
+  </p>
+<% end %>

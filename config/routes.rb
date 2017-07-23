@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/' => 'pages#home'
+  get '/' => 'users#new'
 
   resources :users, only: [:create] do 
      resources :spins, only: [:new, :create, :show]

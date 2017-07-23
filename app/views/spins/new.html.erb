@@ -1,5 +1,4 @@
 
-
 <div id="spinner-wrapper">
   <div id="spinner-before" class="spinner">
     <div class="red section"></div>
@@ -7,7 +6,10 @@
     <div class="yellow section"></div>
     <div class="orange section"></div>
   </div>
-    <form action="/users/<%= user.id %>/spins" method="POST">
-      <input id="spin-button" type="submit" value="Click to Spin">
-    </form>
+
+
+  <%= form_tag({controller: "spins", action: "create"}, method: "post") do %>
+    <%= submit_tag("Spin") %>
+  <% end %>
+
 </div>
